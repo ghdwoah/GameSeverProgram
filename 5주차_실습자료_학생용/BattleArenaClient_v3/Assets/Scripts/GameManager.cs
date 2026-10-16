@@ -545,7 +545,7 @@ namespace BattleArena
                 //     50f  → 거의 순간이동
                 // ─────────────────────────────────────────
 
-                go.transform.position = target;   // ← 이 줄을 Lerp로 바꾸세요
+                go.transform.position = Vector3.Lerp(go.transform.position, target, Time.deltaTime * 12f);   // ← 이 줄을 Lerp로 바꾸세요
             }
         }
 

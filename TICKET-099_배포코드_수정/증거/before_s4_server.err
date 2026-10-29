@@ -1,0 +1,8 @@
+Unhandled exception. Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'int' because it is a non-nullable value type
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure, CallSite, Object)
+   at BattleArena.ClientSession.HandlePacket(String json) in C:\Users\홍재모\Desktop\4학년2학기\게임서버프로그래밍\TICKET-099_배포코드 - 복사본\OutsourcedServer\ClientSession.cs:line 73
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
